@@ -5,5 +5,57 @@ html {
 body {
   margin: 0;
   min-height: 100%;
-  font: 16px / 1 sans-serif;
+  font: 20px / 1 sans-serif;
+}
+
+body {
+  background-color: lightblue;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-image: url(./pictures/HowArtChangesUs.jpg);
+}
+h1 {
+  font-style: oblique;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 5rem;
+  margin: 0;
+}
+ul.menu {
+  display: flex;
+  list-style: none;
+}
+li.menu {
+  font-size: 1.1rem;
+  padding: 0rem 1rem;
+}
+nav {
+  background-color: lightgray;
+  border: 4px solid black;
+  border-style: dashed double dashed;
+}
+a {
+  font-family: fantasy;
+  color: black;
+  text-decoration: none;
+}
+a:link {
+  color: black;
+}
+a:visited {
+  color: black;
+}
+a:hover {
+  text-decoration: overline;
+}
+h2,
+p {
+  background-color: white;
+  display: inline-block;
+}
+.bold {
+  font-weight: 700;
+}
+#myonlyid {
+  font-size: 2rem;
 }
