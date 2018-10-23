@@ -12,6 +12,7 @@ body {
   background-color: lightblue;
   background-position: center;
   background-size: cover;
+  background-attachment: fixed;
   background-repeat: no-repeat;
   background-image: url(./pictures/HowArtChangesUs.jpg);
 }
